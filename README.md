@@ -1,5 +1,10 @@
 # 🎯 orders-module-frontend
 
+[![CI](https://github.com/ElessandroPrestes/orders-module-frontend/actions/workflows/frontend.yml/badge.svg)](https://github.com/ElessandroPrestes/orders-module-frontend/actions/workflows/frontend.yml)
+[![codecov](https://codecov.io/gh/ElessandroPrestes/orders-module-frontend/branch/main/graph/badge.svg)](https://codecov.io/gh/ElessandroPrestes/orders-module-frontend)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 > Aplicação **Frontend SPA** , integrada à API RESTful do projeto Orders Module. Focada em **gerenciamento** de pedidos e exibição de dados.
 
@@ -65,10 +70,10 @@ npm install
 | Serviço                | URL                   | Detalhes                               |
 |------------------------|------------------------|-----------------------------------------|
 | Frontend SPA (Quasar) | http://localhost:9000 | Interface de pedidos   |
-| Antennas - Criar         | http://localhost:9000/orders/create  | Formulário para criação de pedidos     |
-| Antennas - Listagem      | http://localhost:9000/orders/list    | Visualização em lista de todos os pedidos |
-| Antennas - Detalhes      | http://localhost:9000/orders/details | Detalhes de um pedido específica       |
-| Antennas - Cancelamento        | http://localhost:9000/antennas/cancel    | Formulário de cancelamento de pedidos        |
+| Pedidos - Criar         | http://localhost:9000/orders/create  | Formulário para criação de pedidos     |
+| Pedidos - Listagem      | http://localhost:9000/orders/list    | Visualização em lista de todos os pedidos |
+| Pedidos - Detalhes      | http://localhost:9000/orders/details | Detalhes de um pedido específica       |
+| Pedidos - Cancelamento        | http://localhost:9000/orderss/cancel    | Formulário de cancelamento de pedidos        |
 
 ---
 
