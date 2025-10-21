@@ -1,0 +1,16 @@
+services:
+  orders_frontend:
+    container_name: orders_frontend
+    build:
+      context: .
+      dockerfile: docker/dockerfile
+    ports:
+      - "9000:80"
+    environment:
+      - VITE_API_BASE_URL=http://order_nginx:80
+    networks:
+      - api_network
+
+networks:
+  api_network:
+    driver: bridge
